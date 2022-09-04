@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Collection</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <script src="../src/sildershow.js" defer></script>
+    <script src="../src/main.js" defer></script>
+  </head>
+  <body>
+    <!--Logo-->
+    <img src="../img/logo.png" alt="logo" class="logo" />
+
+    <!--Slideshow-->
+    <div class="slidershow">
+      <div class="slide">
+        <img
+          src="../img/Banner-Desktop.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+      <div class="slide">
+        <img
+          src="../img/Banner-Desktop2.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+
+      <!--Controller button-->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!--Dotsbox-->
+      <div class="dotsbox" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </div>
+
+    <!--Selection button-->
+    <section class="buttons">
+      <button class="btn newest">신상품순</button>
+      <button class="btn recommend">추천순</button>
+      <button class="btn hightoLow">높은 가격순</button>
+      <button class="btn lowtoHigh">낮은 가격순</button>
+      <button class="btnall abc">알파벳순</button>
+    </section>
+
+    <!--Item-->
+    <ul class="items"></ul>
+  </body>
+</html>

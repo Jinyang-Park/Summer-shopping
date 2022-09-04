@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "type": "swimsuit",
+      "name": "DAZE DAYZ",
+      "detail": "Lime Juice String Top",
+      "date": "2022-06-25",
+      "likes": 61,
+      "price": 89000,
+      "image": "../img/Daze Dayz.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "DAZE DAYZ",
+      "detail": "Coral Logo String Brief",
+      "date": "2022-06-23",
+      "likes": 23,
+      "price": 99000,
+      "image": "../img/Daze Dayz_2.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "DAZE DAYZ",
+      "detail": "Bada One-Shoulder One-Piece",
+      "date": "2022-05-07",
+      "likes": 207,
+      "price": 179000,
+      "image": "../img/Daze Dayz_3.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "Billabong",
+      "detail": "Pick Me up Maui Rider Bikini Bottoms",
+      "date": "2022-05-06",
+      "likes": 15,
+      "price": 98000,
+      "image": "../img/billabong.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "Billabong",
+      "detail": "Sweet Tropics Reversible Rise Bikini Top",
+      "date": "2022-04-15",
+      "likes": 55,
+      "price": 69000,
+      "image": "../img/billabong_2.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "Billabong",
+      "detail": "Sunchaser Kenzley Underwire Bikini Top",
+      "date": "2022-04-13",
+      "likes": 80,
+      "price": 68000,
+      "image": "../img/billabong_3.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "GANNI",
+      "detail": "Sporty Swimsuit",
+      "date": "2022-05-19",
+      "likes": 8,
+      "price": 215000,
+      "image": "../img/GANNI.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "GANNI",
+      "detail": "Crochet High-Neck Bikini Top",
+      "date": "2022-03-02",
+      "likes": 148,
+      "price": 215000,
+      "image": "../img/GANNI_2.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "GANNI",
+      "detail": "Belted One-Piece Swimsuit",
+      "date": "2022-03-10",
+      "likes": 5,
+      "price": 280000,
+      "image": "../img/GANNI_3.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "Same",
+      "detail": "Double Layer Top",
+      "date": "2022-08-23",
+      "likes": 105,
+      "price": 120000,
+      "image": "../img/same.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "Same",
+      "detail": "Lace Up Crop Top",
+      "date": "2022-08-02",
+      "likes": 205,
+      "price": 95000,
+      "image": "../img/same_2.jpg",
+      "icon": "fa fa-heart fa-sm"
+    },
+    {
+      "type": "swimsuit",
+      "name": "Same",
+      "detail": "Thin Ruched Bra",
+      "date": "2022-07-29",
+      "likes": 75,
+      "price": 120000,
+      "image": "../img/same_3.jpg",
+      "icon": "fa fa-heart fa-sm"
+    }
+  ]
+}
