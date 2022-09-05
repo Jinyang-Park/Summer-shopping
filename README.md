@@ -25,7 +25,7 @@
 # 레퍼런스
 * 드림 코딩 by 엘리님의 미니 쇼핑 프로젝트 (기본적인 HTML, CSS 및 Javascript 참고)
 <https://youtu.be/We2Kv1HMGvc>
-* Billabong Australia website (슬라이드 화면 참고)
+* Billabong Australia website (슬라이드 화면 디자인 참고)
 <https://www.billabong.com.au/womens/>
 * W Concept website (아이템 레이아웃 및 버튼 디자인 참고 )
 <https://www.wconcept.co.kr/WOMEN>
