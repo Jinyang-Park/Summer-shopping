@@ -23,10 +23,12 @@
 * 자바스크립트 공부하면서 프로젝트 만드느라 시간이 오래 소요되었다.
 
 # 레퍼런스
-* 드림코딩 by 엘리님의 미니 쇼핑 프로젝트 
-* Billabong Australia website
+* 드림코딩 by 엘리님의 미니 쇼핑 프로젝트 (기본적인 HTML,CSS 및 Javascript 참고)
+<https://youtu.be/We2Kv1HMGvc>
+* Billabong Australia website (슬라이드 화면 참고)
 <https://www.billabong.com.au/womens/>
-
+* W Concept website (아이템 레이아웃 및 버튼 디자인 참고 )
+<https://www.wconcept.co.kr/WOMEN>
 # 주요 기능
 
 * `json`을 통해 데이터를 동적(fetch, data.json)으로 가져와 `map`과 `Join`을 이용하여 HTML string으로 바꾸어 화면 레이아웃을 구성하였다.
