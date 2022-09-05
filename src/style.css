@@ -93,27 +93,6 @@ body {
 /* /2 */
 
 /* 3 */
-@media screen and (max-width: 600px) {
-  .slide {
-    height: 400px;
-  }
-}
-@media screen and (max-width: 900px) {
-  .prev,
-  .next {
-    position: absolute;
-    top: 35%;
-    transform: translate3d(0, -35%, 0);
-  }
-}
-@media screen and (max-width: 900px) {
-  .dot {
-    display: none;
-  }
-}
-/* /3 */
-
-/* 4 */
 .buttons {
   display: flex;
   align-items: center;
@@ -137,19 +116,9 @@ body {
   background-color: var(--color--gray);
   color: var(--color--white);
 }
-/* /4 */
+/* /3 */
 
-/* 5 */
-@media screen and (max-width: 600px) {
-  .btn,
-  .btnall {
-    width: 80px;
-    height: 45px;
-  }
-}
-/* /5 */
-
-/* 6 */
+/* 4 */
 .items {
   display: grid;
   place-items: center;
@@ -193,10 +162,27 @@ body {
   padding: 2px;
 }
 
-/* /6 */
+/*  /4 */
 
-/* 7 */
-@media screen and (max-width: 600px) {
+/*  5 */
+@media screen and (max-width: 768px) {
+  .slide {
+    height: 400px;
+  }
+  .prev,
+  .next {
+    position: absolute;
+    top: 45%;
+    transform: translate3d(0, -35%, 0);
+  }
+  .dot {
+    display: none;
+  }
+  .btn,
+  .btnall {
+    width: 80px;
+    height: 45px;
+  }
   .items {
     display: grid;
     place-items: center;
@@ -210,4 +196,64 @@ body {
     height: 300px;
   }
 }
-/* /7 */
+/*  /5 */
+
+/* 6 */
+@media screen and (max-width: 510px) {
+  .slide {
+    height: 300px;
+  }
+  .btn,
+  .btnall {
+    width: 58px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .prev,
+  .next {
+    font-size: 20px;
+  }
+  .items {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    overflow-x: none;
+  }
+  .item__thumbnail {
+    width: 220px;
+    height: 300px;
+  }
+}
+/* /6 */
+
+/* 7 */
+@media screen and (max-width: 360px) {
+  .slide {
+    height: 300px;
+  }
+  .btn,
+  .btnall {
+    width: 50px;
+    height: 40px;
+    font-size: 9px;
+  }
+  .prev,
+  .next {
+    font-size: 20px;
+  }
+  .items {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    overflow-x: none;
+  }
+  .item__thumbnail {
+    width: 220px;
+    height: 300px;
+  }
+}
+/*  /7 */
